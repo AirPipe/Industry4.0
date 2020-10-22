@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+ <deviceinfo portName="/dev/ttyAMA0" baudRate="9600" StopBits="1" Parity="无"></deviceinfo>
+  <mqttinfo  SleepTime="1000" serverIP="127.0.0.1" Port="1883" userName="admin" Password="123456" PublishTopic="home/mqtt/devices/up/AP000003" SubscribeTopic="home/mqtt/devices/down/AP000003"></mqttinfo>
+  <deviceData >
+    <deviceItem name="var1" deviceid="1" code="3" deviceaddress="3" ></deviceItem>
+    <deviceItem name="var2" deviceid="1" code="4" deviceaddress="0" ></deviceItem>
+    <deviceItem name="var3" deviceid="1" code="3" deviceaddress="4" ></deviceItem>
+    <deviceItem name="var4" deviceid="1" code="3" deviceaddress="5" ></deviceItem>
+    <deviceItem name="var5" deviceid="1" code="3" deviceaddress="2" ></deviceItem>
+    <deviceItem name="var6" deviceid="1" code="3" deviceaddress="7" ></deviceItem>
+    <deviceItem name="var7" deviceid="1" code="3" deviceaddress="11" ></deviceItem>
+    <deviceItem name="var8" deviceid="21" code="3" deviceaddress="99" ></deviceItem>
+	<deviceItem name="var9" deviceid="21" code="3" deviceaddress="100" ></deviceItem>
+	<deviceItem name="var10" deviceid="21" code="3" deviceaddress="101" ></deviceItem>
+	<deviceItem name="var11" deviceid="21" code="3" deviceaddress="102" ></deviceItem>
+	<deviceItem name="var12" deviceid="21" code="3" deviceaddress="103" ></deviceItem>
+	<deviceItem name="var13" deviceid="21" code="3" deviceaddress="104" ></deviceItem>
+	<deviceItem name="var14" deviceid="21" code="3" deviceaddress="105" ></deviceItem>
+	<deviceItem name="var15" deviceid="21" code="3" deviceaddress="106" ></deviceItem>
+	<deviceItem name="var16" deviceid="21" code="3" deviceaddress="107" ></deviceItem>
+  </deviceData>
+  <SendCmd>
+    <cmdItem name="1on/off" deviceid="1" code="6" deviceaddress="3"></cmdItem>
+    <cmdItem name="1mode" deviceid="1" code="6" deviceaddress="4"></cmdItem>
+	  <cmdItem name="1hot" deviceid="1" code="6" deviceaddress="0"></cmdItem>
+	  <cmdItem name="1cool" deviceid="1" code="6" deviceaddress="1"></cmdItem>
+  </SendCmd>
+</root>

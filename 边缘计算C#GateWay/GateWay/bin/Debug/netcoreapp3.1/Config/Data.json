@@ -1,0 +1,87 @@
+{
+  "AC": {
+    "Remote": {
+      "Type": "YVAG18",
+      "UUID": "1",
+      "Online": 1,
+      "Children": 7,
+      "A": "var1",
+      "B": "var2",
+      "C": "var3",
+      "D": "var4",
+      "E": "var5",
+      "F": "var6",
+      "G": "var7",
+      "H": "var8"
+    },
+    "Touch-A": {
+      "Type": "T8600",
+      "UUID": "1.1",
+      "Online": 1,
+      "a": "var9",
+      "b": "var10",
+      "c": "var11",
+      "d": "var12",
+      "e": "var13",
+      "f": "var14",
+      "g": "var15"
+    },
+    "Touch-B": {
+      "Type": "T8600",
+      "UUID": "1.2",
+      "Online": 0,
+      "a": "var16",
+      "b": "var17",
+      "c": 0,
+      "d": 0,
+      "e": 0,
+      "f": 0,
+      "g": 0
+    },
+  },
+  "ENV": {
+    "Type": "Env",
+    "UUID": "2",
+    "Online": 0,
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 0
+  },
+  "WE": {
+    "Type": "WE",
+    "UUID": "3",
+    "Online": 0,
+    "a": 0,
+    "b": 0
+  },
+  "Air": {
+    "Type": "Air",
+    "UUID": "4",
+    "Online": 0,
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 0,
+    "e": 0,
+    "f": 0,
+    "g": 0,
+    "h": 0,
+    "i": 0,
+    "j": 0
+  },
+  "Heating": {
+    "Type": "Heating",
+    "UUID": "5",
+    "Online": 0,
+    "a": 0,
+    "b": 0,
+    "c": 0,
+    "d": 0,
+    "e": 0,
+    "f": 0,
+    "g": 0,
+    "h": 0,
+    "i": 0
+  }
+}
